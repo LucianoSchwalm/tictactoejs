@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jogo da velha</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <label for="player1">Jogador 1:</label>
+        <input type="text" id="player1" value="" />
+        <label for="player2">Jogador 2:</label>
+        <input type="text" id="player2" value="" />
+        <button onclick="trocaNome()" id="jogar">Jogar!</button>
+      </header>
+      <section class="main-content">
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+        <button class="item" name="item" onclick="marcaElemento(this)">
+          <p class="marcacao"></p>
+        </button>
+      </section>
+      <footer>
+        <div id="divMostra"><h2 id="mostraJogador"></h2></div>
+      </footer>
+    </div>
+  </body>
+</html>
